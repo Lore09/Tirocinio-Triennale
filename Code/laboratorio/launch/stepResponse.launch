@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="laboratorio" name="generator" type="generator.py"/>
+  <node pkg="laboratorio" name="plotter" type="plotter.py"/>
+
+  <param name="data" value="True"/>
+  <param name="start" value="0.0"/>
+  <param name="end" value="0.1"/>
+
+</launch>
